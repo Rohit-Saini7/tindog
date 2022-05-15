@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* background color */
+.alt-bg-color {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.no-bg-color {
+  background-color: #fff;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.footer .container-fluid {
+  padding: 20px 0;
+}
+
+/* headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.featuers-title {
+  font-size: 1.5rem;
+}
+
+/* button */
+.downloadbtn {
+  font-family: "Montserrat";
+  margin: 5% 3% 5% 0;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/* title */
+.title {
+  text-align: left;
+}
+
+.phoneimg {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* featuers */
+.featuers {
+  position: relative;
+}
+
+.column {
+  padding: 7.5% 3%;
+}
+
+.featuers-icon {
+  color: #ef8172;
+  margin-bottom: 18px;
+}
+
+.featuers-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+.test-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* press */
+.press {
+  padding-bottom: 3%;
+}
+
+.press-img {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* pricing */
+.pricing {
+  padding: 100px;
+}
+
+.price-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+/* footer */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+/* breakpoint media queries */
+@media (max-width:544px) {
+  .title {
+    text-align: center;
+  }
+
+  .phoneimg {
+    position: static;
+    height: 408px;
+    width: 202px;
+    transform: rotate(0);
+  }
+}
+/*
+@media (max-width:) {
+  .body{
+  }
+
+} */
